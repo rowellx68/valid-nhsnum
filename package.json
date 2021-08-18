@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -10,6 +10,12 @@
   "engines": {
     "node": ">=12"
   },
+  "keywords": [
+    "nhs",
+    "nhs number",
+    "validation",
+    "testing"
+  ],
   "scripts": {
     "start": "tsdx watch",
     "build": "tsdx build",
@@ -32,6 +38,7 @@
     "trailingComma": "es5"
   },
   "name": "valid-nhsnum",
+  "description": "A zero-dependency NHS Number validator and generator.",
   "author": "Rowell Heria",
   "module": "dist/valid-nhsnum.esm.js",
   "size-limit": [
