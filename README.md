@@ -35,7 +35,7 @@ generate(2);
 
 #### `generateOne(formatted?: boolean): string`
 
-This method generates a single
+This method generates a single NHS number with an optional boolean parameter that if set to `true` would format the string.
 
 ```ts
 import { generateOne } from 'valid-nhsnum';
@@ -46,3 +46,8 @@ generateOne(true);
 // '0823795578'
 generateOne();
 ```
+
+## Links
+
+- [NHS number format](https://en.wikipedia.org/wiki/NHS_number#Format)
+- [What is an NHS number?](https://www.nhs.uk/using-the-nhs/about-the-nhs/what-is-an-nhs-number/)
