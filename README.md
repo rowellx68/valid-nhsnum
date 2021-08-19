@@ -1,6 +1,19 @@
 # valid-nhsnum
 
+[![npm version](https://badge.fury.io/js/valid-nhsnum.svg)](https://badge.fury.io/js/valid-nhsnum)
+![Action Status](https://github.com/rowellx68/valid-nhsnum/actions/workflows/main.yml/badge.svg)
+
 A zero dependency NHS Number validator and generator.
+
+## Installation
+
+You can install `valid-nhsnum` using either `yarn` or `npm`.
+
+```bash
+yarn add valid-nhsnum
+
+npm i valid-nhsnum
+```
 
 ## API
 
