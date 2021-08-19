@@ -36,7 +36,7 @@ describe('generateOne', () => {
 });
 
 describe('generate', () => {
-  it.each([1, 2, 5, 20])(
+  it.each([0, 1, 2, 5, 20])(
     'generates correct number of NHS numbers -> %s',
     count => {
       const values = generate(count);

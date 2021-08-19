@@ -42,7 +42,7 @@ export const generate = (
   return values;
 };
 
-export const generateOne = (formatted: boolean): string => {
+export const generateOne = (formatted: boolean = false): string => {
   const start = [0, 3, 4, 6][Math.floor(Math.random() * 3)];
   const digits = [];
 
