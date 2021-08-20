@@ -5,6 +5,10 @@
 
 A zero dependency NHS Number validator and generator.
 
+## Demo
+
+Try the demo [here](https://rowellx68.github.io/valid-nhsnum/).
+
 ## Installation
 
 You can install `valid-nhsnum` using either `yarn` or `npm`.

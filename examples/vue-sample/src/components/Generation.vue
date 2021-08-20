@@ -83,7 +83,7 @@ export default defineComponent({
     validCount(): number {
       const parsed = parseInt(`${this.count}`)
 
-      return parsed === NaN
+      return isNaN(parsed)
         ? 1
         : parsed
     }
