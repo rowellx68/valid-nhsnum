@@ -4,10 +4,18 @@
       <h2 class="nhsuk-fieldset__heading">Generation</h2>
     </legend>
 
+    <div class="nhsuk-warning-callout">
+      <h3 class="nhsuk-warning-callout__label">
+        <span role="text">
+          <span class="nhsuk-u-visually-hidden">Important:</span>
+          Potentially assigned
+        </span>
+      </h3>
+      <p>Due to the randomness of the generator, there is a chance that the generated values could have been assigned to a patient.</p>
+    </div>
+
     <div class="nhsuk-form-group">
-      <div class="nhsuk-hint">
-        The number of sample NHS numbers you want to generate.
-      </div>
+      <div class="nhsuk-hint">The number of sample NHS numbers you want to generate.</div>
       <input
         class="nhsuk-input nhsuk-input--width-4"
         id="count-input"
@@ -20,9 +28,9 @@
     </div>
 
     <div class="nhsuk-form-group">
-      <div class="nhsuk-hint">
-        Tick this box if you want the generated NHS numbers to be pre-formatted.
-      </div>
+      <div
+        class="nhsuk-hint"
+      >Tick this box if you want the generated NHS numbers to be pre-formatted.</div>
 
       <div class="nhsuk-checkboxes">
         <div class="nhsuk-checkboxes__item">
@@ -36,24 +44,19 @@
           <label
             class="nhsuk-label nhsuk-checkboxes__label"
             for="preformat-output"
-          >
-            Pre-format output
-          </label>
+          >Pre-format output</label>
         </div>
       </div>
     </div>
 
-    <button class="nhsuk-button" type="submit" @click="generateSample">
-      Generate
-    </button>
+    <button class="nhsuk-button" type="submit" @click="generateSample">Generate</button>
 
     <div class="nhsuk-form-group">
-      <label class="nhsuk-label" for="generated-output">
-        Sample NHS numbers
-      </label>
-      <div class="nhsuk-hint" id="generated-output-hint">
-        These values should be following the NHS number format.
-      </div>
+      <label class="nhsuk-label" for="generated-output">Sample NHS numbers</label>
+      <div
+        class="nhsuk-hint"
+        id="generated-output-hint"
+      >These values should be following the NHS number format.</div>
       <textarea
         class="nhsuk-textarea"
         id="generated-output"

@@ -4,9 +4,9 @@
       <div class="nhsuk-header__transactional-service-name">
         <a
           class="nhsuk-header__transactional-service-name--link"
-          href="/"
-          aria-label="Demo homepage"
-          >Demo</a
+          href="https://github.com/rowellx68/valid-nhsnum"
+          aria-label="Repo homepage"
+          >Github</a
         >
       </div>
     </div>
