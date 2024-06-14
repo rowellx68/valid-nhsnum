@@ -1,62 +1,21 @@
 {
-  "version": "1.0.2-2",
-  "license": "MIT",
-  "main": "dist/index.js",
-  "typings": "dist/index.d.ts",
-  "files": [
-    "dist",
-    "src"
-  ],
-  "engines": {
-    "node": ">=12"
-  },
-  "keywords": [
-    "nhs",
-    "nhs number",
-    "validation",
-    "testing"
-  ],
-  "scripts": {
-    "start": "tsdx watch",
-    "build": "tsdx build",
-    "test": "tsdx test",
-    "lint": "tsdx lint",
-    "prepare": "tsdx build",
-    "size": "size-limit"
-  },
-  "peerDependencies": {},
-  "husky": {
-    "hooks": {
-      "pre-commit": "tsdx lint"
-    }
-  },
-  "prettier": {
-    "printWidth": 80,
-    "semi": true,
-    "singleQuote": true,
-    "trailingComma": "es5"
-  },
   "name": "valid-nhsnum",
-  "description": "A zero-dependency NHS Number validator and generator.",
-  "author": "Rowell Heria",
-  "module": "dist/valid-nhsnum.esm.js",
-  "size-limit": [
-    {
-      "path": "dist/valid-nhsnum.cjs.production.min.js",
-      "limit": "10 KB"
-    },
-    {
-      "path": "dist/valid-nhsnum.esm.js",
-      "limit": "10 KB"
-    }
-  ],
-  "devDependencies": {
-    "@size-limit/preset-small-lib": "^8.1.2",
-    "husky": "^8.0.3",
-    "size-limit": "^8.1.2",
-    "tsdx": "^0.14.1",
-    "tslib": "^2.3.1",
-    "typescript": "^4.3.5"
+  "version": "0.0.0",
+  "scripts": {
+    "test": "pnpm -r test",
+    "build": "pnpm -r build",
+    "format": "prettier --write .",
+    "dev": "pnpm -r dev"
   },
-  "dependencies": {}
+  "author": "Rowell Heria",
+  "license": "MIT",
+  "devDependencies": {
+    "@changesets/changelog-github": "^0.5.0",
+    "@changesets/cli": "^2.27.5",
+    "@parcel/transformer-sass": "2.12.0",
+    "changeset-conventional-commits": "^0.2.5",
+    "prettier": "^3.3.2",
+    "process": "^0.11.10",
+    "vitest": "^1.6.0"
+  }
 }
