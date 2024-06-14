@@ -2,6 +2,13 @@
   "name": "valid-nhsnum",
   "version": "1.0.4",
   "description": "A zero-dependency NHS Number validator and generator.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rowellx68/valid-nhsnum.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rowellx68/valid-nhsnum/issues"
+  },
   "private": false,
   "publishConfig": {
     "access": "public",
