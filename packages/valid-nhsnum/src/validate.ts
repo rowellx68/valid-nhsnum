@@ -20,7 +20,7 @@ export const validate = (nhsNumber: string): boolean => {
   }, 0);
 
   const remainder = value % 11;
-  const check = 11 - remainder;
+  const check = remainder === 0 ? 0 : Math.abs(11 - remainder);
 
   return check === split[9];
 };
