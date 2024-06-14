@@ -1,10 +1,33 @@
 {
   "name": "valid-nhsnum",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.2-2",
+  "description": "A zero-dependency NHS Number validator and generator.",
+  "private": false,
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE.md"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "test": "vitest"
+  },
+  "keywords": [
+    "nhs",
+    "nhs number",
+    "validation",
+    "testing"
+  ],
+  "author": "Rowell Heria",
+  "license": "MIT",
   "exports": {
     ".": {
       "import": "./dist/index.mjs",
@@ -22,19 +45,6 @@
       "types": "./dist/validate.d.ts"
     }
   },
-  "files": [
-    "dist",
-    "README.md",
-    "CHANGELOG.md",
-    "LICENSE.md"
-  ],
-  "scripts": {
-    "build": "rollup -c",
-    "test": "vitest"
-  },
-  "keywords": [],
-  "author": "Rowell Heria",
-  "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^26.0.1",
     "@rollup/plugin-node-resolve": "^15.2.3",
