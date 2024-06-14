@@ -1,6 +1,6 @@
 {
   "name": "valid-nhsnum",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A zero-dependency NHS Number validator and generator.",
   "private": false,
   "publishConfig": {
