@@ -1,0 +1,27 @@
+{
+  "name": "with-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html"
+  },
+  "keywords": [],
+  "author": "Rowell Heria",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "parcel": "^2.12.0",
+    "sass": "^1.77.5",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "nhsuk-frontend": "^8.2.0",
+    "nhsuk-frontend-react": "^3.4.6",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.51.5",
+    "valid-nhsnum": "workspace:*"
+  }
+}

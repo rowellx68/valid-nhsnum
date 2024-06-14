@@ -1,1 +1,4 @@
-node_modules
+**/CHANGELOG.md
+**/README.md
+**/dist
+pnpm-lock.yaml
