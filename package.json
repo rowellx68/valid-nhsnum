@@ -2,7 +2,7 @@
   "name": "valid-nhsnum",
   "version": "0.0.0",
   "scripts": {
-    "test": "pnpm -r test",
+    "test": "vitest",
     "build": "pnpm -r build",
     "format": "prettier --write .",
     "dev": "pnpm -r dev"
