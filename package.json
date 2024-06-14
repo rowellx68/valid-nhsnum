@@ -5,6 +5,8 @@
     "test": "vitest",
     "build": "pnpm -F ./packages/* build",
     "format": "prettier --write .",
+    "release": "pnpm changeset publish",
+    "cc:changeset": "pnpm changeset-conventional",
     "dev": "pnpm -r dev"
   },
   "author": "Rowell Heria",
